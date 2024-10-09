@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    /* border: medium solid blue; */
+    height: 150px;
+    background-color: rgba(240, 248, 255, 0.091);
+   
+}
+.container .wrapper
+{
+    border-bottom: thin solid black;
+
+    width: 90%;
+    height: 80px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .wrapper .left img
+{
+   width: 100px;
+   height: 100px;
+   padding-top: 5px;
+   margin-left: 50px;
+
+}
+.container .wrapper .right ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.container .wrapper .right ul li 
+{
+    list-style-type: none;
+}
+.container .wrapper .right ul li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+.container .wrapper  ul .right .menu 
+{
+    position: relative;
+    /* display: flex; */
+}
+.container .wrapper .right  ul .menu .dropmenu
+{
+    border-top: medium solid blue;
+    /* border: medium solid yellow; */
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 0 20px;
+    line-height: 2;
+    background-color: white;
+    border-radius: 3px;
+    display: none;
+    margin-top: 30px;
+   
+   
+
+}
+.container .wrapper .right  ul .menu .dropmenu li:hover
+{
+    background-color: rgba(240, 248, 255, 0.486);
+    
+}
+.container .wrapper .right ul .menu .dropmenu li
+{
+    padding: 3px;
+   
+}
+.container .wrapper .right ul .menu .dropmenu li a
+{
+    color: black;
+}
+.container .wrapper .right ul .menu:hover >.dropmenu
+{
+    display: block;
+   
+}
+.container .wrapper  ul .right .menu2 
+{
+    position: relative;
+    /* display: flex; */
+}
+.container .wrapper .right  ul .menu2 .dropmenu2
+{
+    border-top: medium solid blue;
+    /* border: medium solid yellow; */
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 300px;
+    padding: 10px 10px 0 20px;
+    line-height: 2;
+    background-color: white;
+    border-radius: 3px;
+    display: none;
+    margin-top: 30px;
+   
+   
+
+}
+.container .wrapper .right  ul .menu2 .dropmenu2 li:hover
+{
+    background-color: rgba(240, 248, 255, 0.486);
+    
+}
+.container .wrapper .right ul .menu2 .dropmenu2 li
+{
+    padding: 3px;
+   
+}
+.container .wrapper .right ul .menu2 .dropmenu2 li a
+{
+    color: black;
+
+   
+}
+.container .wrapper .right ul .menu2:hover >.dropmenu2
+{
+    display: block;
+    position: absolute;
+   
+}
+.container .wrapper .right  ul .menu3
+{
+    position: relative;
+}
+.container .wrapper .right  ul .menu3 .dropmenu3
+{
+    border-top: medium solid blue;
+    /* border: medium solid yellow; */
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 300px;
+    padding: 10px 10px 0 20px;
+    line-height: 2;
+    background-color: white;
+    border-radius: 3px;
+    display: none;
+    margin-top: 30px;
+    position: static;
+    
+
+   
+   
+
+}
+.container .wrapper .right  ul .menu3 .dropmenu3 li:hover
+{
+    background-color: rgba(240, 248, 255, 0.486);
+    
+}
+.container .wrapper .right ul .menu3 .dropmenu3 li
+{
+    padding: 3px;
+   
+}
+.container .wrapper .right ul .menu3 .dropmenu3 li a
+{
+    color: black;
+}
+.container .wrapper .right ul .menu3:hover >.dropmenu3
+{
+    display: block;
+    position: absolute;
+   
+}
+
